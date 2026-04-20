@@ -1,0 +1,15 @@
+{
+  "data_root": "/workspace/data/msrs_shared",
+  "manifest": "/workspace/data/msrs_shared/manifest.json",
+  "weights": "/workspace/work_dirs/alignment/jittor/pretrain/pretrain_mae_latest.pkl",
+  "epochs": 40,
+  "batch_size": 30,
+  "lr": 0.0001,
+  "image_size": 224,
+  "seed": 42,
+  "max_train_samples": 0,
+  "max_val_samples": 0,
+  "freeze_backbone": false,
+  "backbone_lr": 0,
+  "work_dir": "/workspace/work_dirs/alignment/jittor/downstream_unfreeze"
+}

@@ -1,0 +1,18 @@
+{
+  "data_root": "/workspace/data/inf30_subset",
+  "resume": "auto",
+  "auto_resume": true,
+  "epochs": 50,
+  "batch_size": 56,
+  "lr": 0.00015,
+  "warmup_epochs": 5,
+  "weight_decay": 0.05,
+  "mask_ratio": 0.75,
+  "image_size": 224,
+  "max_samples": 2000,
+  "seed": 42,
+  "num_workers": 4,
+  "device": "auto",
+  "work_dir": "work_dirs/pretrain",
+  "min_lr": 0.0
+}

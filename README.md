@@ -5,7 +5,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/DavidLi-TJ/InfMAE_Jittor?style=flat-square)](https://github.com/DavidLi-TJ/InfMAE_Jittor/issues)
 [![GitHub repo size](https://img.shields.io/github/repo-size/DavidLi-TJ/InfMAE_Jittor?style=flat-square)](https://github.com/DavidLi-TJ/InfMAE_Jittor)
 
-本项目使用 Jittor 深度学习框架复现了 [InfMAE](https://arxiv.org/abs/2303.08505)（Masked Autoencoder with skip connections），并与 PyTorch 实现进行了严格对齐验证。
+本项目使用 Jittor 深度学习框架复现了 [InfMAE](https://arxiv.org/abs/2303.08505)（A Foundation Model in The Infrared Modality），并与 PyTorch 实现进行了严格对齐验证。
 
 > **官方仓库**：[liufangcen/InfMAE](https://github.com/liufangcen/InfMAE)
 >
@@ -736,13 +736,13 @@ InfMAE_jittor/
 ```
 
 ***
+
+## GitHub Star 趋势可视化
+
+[![Star History Chart](https://api.star-history.com/svg?repos=DavidLi-TJ/InfMAE_Jittor&type=Date)](https://star-history.com/#DavidLi-TJ/InfMAE_Jittor&Date)
+
+
 ## 联系方式
 
 - Name: Houxian Li
 - Email: li_houxian@163.com
-## GitHub Star 趋势可视化
-
-[![Star History Chart](https://starchart.cc/DavidLi-TJ/InfMAE_Jittor.svg)](https://starchart.cc/DavidLi-TJ/InfMAE_Jittor)
-
-
-

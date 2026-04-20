@@ -10,7 +10,6 @@ env/
 
 # Dataset and generated artifacts
 data/
-work_dirs/
 
 # Large model weights and checkpoints
 weights/*.pkl
