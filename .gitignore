@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dataset and generated artifacts
+data/
+work_dirs/
+
+# Large model weights and checkpoints
+weights/*.pkl
+weights/*.npz
+*.pth
+*.pt
+
+# IDE/system
+.DS_Store
+Thumbs.db

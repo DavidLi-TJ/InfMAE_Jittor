@@ -1,0 +1,5 @@
+numpy>=1.24
+pillow>=10.0
+matplotlib>=3.7
+tqdm>=4.66
+jittor>=1.3
