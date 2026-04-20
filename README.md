@@ -736,14 +736,13 @@ InfMAE_jittor/
 ```
 
 ***
-
-## GitHub Star 趋势可视化
-
-[![Star History Chart](https://starchart.cc/DavidLi-TJ/InfMAE_Jittor.svg)](https://starchart.cc/DavidLi-TJ/InfMAE_Jittor)
-
-> 仓库当前为 private 时，第三方统计图可能暂时无法显示；切换为 public 后会自动生效。
-
 ## 联系方式
 
 - Name: Houxian Li
 - Email: li_houxian@163.com
+## GitHub Star 趋势可视化
+
+[![Star History Chart](https://starchart.cc/DavidLi-TJ/InfMAE_Jittor.svg)](https://starchart.cc/DavidLi-TJ/InfMAE_Jittor)
+
+
+
