@@ -1,7 +1,6 @@
 # InfMAE Jittor 复现
 
 [![GitHub stars](https://img.shields.io/github/stars/DavidLi-TJ/InfMAE_Jittor?style=flat-square)](https://github.com/DavidLi-TJ/InfMAE_Jittor/stargazers)
-[![GitHub last commit](https://img.shields.io/github/last-commit/DavidLi-TJ/InfMAE_Jittor?style=flat-square)](https://github.com/DavidLi-TJ/InfMAE_Jittor/commits/main)
 [![GitHub issues](https://img.shields.io/github/issues/DavidLi-TJ/InfMAE_Jittor?style=flat-square)](https://github.com/DavidLi-TJ/InfMAE_Jittor/issues)
 [![GitHub repo size](https://img.shields.io/github/repo-size/DavidLi-TJ/InfMAE_Jittor?style=flat-square)](https://github.com/DavidLi-TJ/InfMAE_Jittor)
 
@@ -76,7 +75,7 @@ pip install numpy Pillow matplotlib
 
 1. **GCC 版本兼容性**：系统默认 GCC 13.3.0 与 CUDA 12.2 的 `nvcc` 不兼容，编译时会报错。解决方案是安装 GCC 12 并通过 `PATH` 环境变量优先使用。
 2. **CUDA 驱动**：Jittor 首次运行时会自动下载 CUDA 12.2 runtime 到 `~/.cache/jittor/jtcuda/`。
-3. **内存占用**：InfMAE 模型参数约 370MB，backbone forward 需要 \~6GB GPU 显存。预训练 batch\_size=48（Jittor）/ 56（PyTorch）和下游任务 batch\_size=30 在 T4 16GB 上均占用约13GB显存，可稳定运行。
+3. **内存占用**：InfMAE 模型参数约 370MB。预训练 batch\_size=56（Jittor/PyTorch）和下游任务 batch\_size=30 在 T4 16GB 上均占用约13GB显存，可稳定运行。
 
 ***
 
@@ -737,7 +736,7 @@ InfMAE_jittor/
 
 ***
 
-## GitHub Star 趋势可视化
+## GitHub Star
 
 [![Star History Chart](https://api.star-history.com/svg?repos=DavidLi-TJ/InfMAE_Jittor&type=Date)](https://star-history.com/#DavidLi-TJ/InfMAE_Jittor&Date)
 
